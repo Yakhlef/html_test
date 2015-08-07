@@ -37,28 +37,31 @@
         </div>
       </div>
     </div> -->
-  <div class="container">
-    <form class="form-signin">
-      <h2 class="form-signin-heading">Please sign in</h2>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+    <div style="width: 360px;" class="panel panel-primary" dir="rtl" st>
+      <div style="text-align: center;font-size: 20px;" class="panel-heading">الرجاء أملاء الفراغات</div>
+      <div style="width: 360px;" class="container" dir="rtl">
+        <form class="form-signin">
+          <h2 class="form-signin-heading">أسم المستخدم</h2>
+          <label for="inputUsername" class="sr-only">User name</label>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="الرجاء كتابة أسم المستخدم" aria-describedby="basic-addon1">
+          </div>
+          <h2 class="form-signin-heading">كلمة المرور</h2>
+          <label for="inputPassword" class="sr-only">Password</label>
+          <div class="input-group">
+            <span class="input-group-addon" ><i class="glyphicon glyphicon-eye-open"></i></span>
+            <input type="password" class="form-control" placeholder="الرجاء كتابة كلمة المرور" aria-describedby="basic-addon1">
+          </div>
+          <div dir="rtl" class="checkbox">
+            <label><input type="checkbox" value="remember-me">
+            <h5 style="font-size: 20px;padding-right: 20px;">تذكر كلمة المرور</h5>
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">دخول</button>
+        </form>
       </div>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <div class="input-group">
-        <span class="input-group-addon" ><i class="glyphicon glyphicon-eye-open"></i></span>
-        <input type="password" class="form-control" placeholder="userpassword" aria-describedby="basic-addon1">
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    </form>
-  </div> <!-- /container -->    
-    
-  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    </div> 
+      <script type="text/javascript" src="./js/bootstrap.min.js"></script>
   </body>
 </html>
