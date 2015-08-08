@@ -3,6 +3,8 @@ body {
   padding-bottom: 40px;
   background-color: #eee;
   position: center;
+  font-family: "droidkufi", droidkufi;
+
 }
 .form-signin {
   max-width: 330px;
@@ -42,4 +44,12 @@ body {
 }
 .panel-primary{
   margin:auto;
+}
+
+@font-face {
+  font-family: "droidkufi";
+  src: url("../fonts/DroidKufi-Regular.ttf") format("truetype");
+}
+h2, h3,h4,h5 {
+  font-family: "droidkufi", droidkufi;
 }
