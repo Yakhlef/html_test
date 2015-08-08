@@ -1,0 +1,8 @@
+{
+	name : "Ahmed Fituri",
+	age : 29,
+	address: {
+		city : "Tripoli",
+		Country : "Libya"
+	}
+}

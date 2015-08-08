@@ -4,7 +4,6 @@ body {
   background-color: #eee;
   position: center;
   font-family: "droidkufi", droidkufi;
-
 }
 .form-signin {
   max-width: 330px;
@@ -52,4 +51,10 @@ body {
 }
 h2, h3,h4,h5 {
   font-family: "droidkufi", droidkufi;
+}
+.row {
+  border: solid 1px black;
+  text-align: center;
+  margin-right: -15px;
+  margin-left: -15px;
 }
